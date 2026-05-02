@@ -12,9 +12,9 @@ prompts:
   - file://prompt.json
 
 providers:
-  - id: google:gemini-flash-lite-latest
+  - id: google:gemini-2.0-flash-lite
     config:
-      showThinking: false # Exclude thinking content from output
+      showThinking: falset
 
 tests:
   - description: "[Chat flow] Step 1: List identities"
